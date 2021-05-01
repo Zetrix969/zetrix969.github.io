@@ -59,7 +59,7 @@ html(lang='en')
                 p.masthead-subheading.font-weight-light.mb-0 React + React Native Developer - Game Designer
               
         // Demo Reel Section
-        section#portfolio.page-section.portfolio
+        section#reel.page-section.portfolio
           .container
             // Portfolio Section Heading
             h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Demo Reel
@@ -72,6 +72,82 @@ html(lang='en')
             // Demo Reel Video
             .container.d-flex.align-items-center.flexcolumn
               iframe(width="1020" height="630" src="https://www.youtube.com/embed/_kOj4B7ides" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+              // Portfolio Section
+        section#portfolio.page-section.bg-primary.portfolio
+            .container
+                // Portfolio Section Heading
+                h2.page-section-heading.text-center.text-uppercase.text-white.mb-0 Portfolio
+                // Icon Divider
+                .divider-custom.divider-light
+                    .divider-custom-line
+                    .divider-custom-icon
+                        i.far.fa-circle
+                    .divider-custom-line
+                // Portfolio Grid Items
+                .row.justify-content-center
+                    // Portfolio Item 1
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal1')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/cabin.png', alt='')
+                    // Portfolio Item 2
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal2')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/cake.png', alt='')
+                    // Portfolio Item 3
+                    .col-md-6.col-lg-4.mb-5
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal3')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/circus.png', alt='')
+                    // Portfolio Item 4
+                    .col-md-6.col-lg-4.mb-5.mb-lg-0
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal4')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/game.png', alt='')
+                    // Portfolio Item 5
+                    .col-md-6.col-lg-4.mb-5.mb-md-0
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal5')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/safe.png', alt='')
+                    // Portfolio Item 6
+                    .col-md-6.col-lg-4
+                        .portfolio-item.mx-auto(data-toggle='modal', data-target='#portfolioModal6')
+                            .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
+                                .portfolio-item-caption-content.text-center.text-white
+                                    i.fas.fa-plus.fa-3x
+                            img.img-fluid(src='assets/img/portfolio/submarine.png', alt='')
+
+        // About Section
+        section#about.page-section.mb-0
+            .container
+                // About Section Heading
+                h2.page-section-heading.text-center.text-uppercase.text-secondary About
+                // Icon Divider
+                .divider-custom
+                    .divider-custom-line
+                    .divider-custom-icon
+                        i.far.fa-circle
+                    .divider-custom-line
+                // About Section Content
+                .row
+                    .col-lg-4.ml-auto
+                        p.lead
+                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                    .col-lg-4.mr-auto
+                        p.lead
+                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
 
         //- // Portfolio Section
         //- section#portfolio.page-section.portfolio
